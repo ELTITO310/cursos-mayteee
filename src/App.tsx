@@ -20,7 +20,7 @@ const Home = () => {
   }
   
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen px-48'>
+    <div className='flex flex-col items-center justify-center min-h-screen container mx-auto'>
       <h1 className='text-2xl font-bold mb-4'>Estos son todos los videos de tus ejercicios {":)"}</h1>
       <p className='text-sm text-gray-600 mb-4'>Video {currentVideoIndex + 1} de {videos.length}</p>
       
